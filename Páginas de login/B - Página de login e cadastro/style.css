@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Corpo*/
+body{
+    background-color: #D0CFBB;
+}
+ 
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+}
+
+/*Lado esquerdo*/
+.left{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 80vh;
+}
+
+.left h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    animation: link 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.left img{
+    width: 750px;
+    height: 700px;
+    position: relative;
+    bottom: 80px;
+    right: 50px;
+    animation: zoomIn 1s ease forwards, floatImage 3s ease-in-out infinite;
+    animation-delay: 1s 2s;
+}
+
+
+/*Lado direito*/
+.right{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 70vh;
+}
+
+.links{
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: 'Raleway', sans-serif;
+    animation: link 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+ul a{
+    text-decoration: none;
+    color: #020202;
+    
+}
+
+ul a:hover{
+    text-decoration: underline;
+    
+}
+
+
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #5d5c47;
+    border-radius: 50%;
+    font-size: 20px; 
+    color: #5d5c47;
+    text-decoration: none;
+    transition: .5s ease;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    margin-inline: 10px;
+    padding: 7px;
+}
+
+.social-media a:hover{
+    background: #5d5c47;
+    color: #1f242d;
+    box-shadow: 0 0 10px #5d5c47;
+}
+
+.divisoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.ou:before,
+.ou:after {
+content: "";
+display: flex;
+justify-content: center;
+margin-inline: 400px;
+position: absolute; 
+top: 44%; 
+width: 150px; 
+height: 1px; 
+background-color: black; 
+}
+
+.ou:before {
+left: 355px; 
+}
+
+.ou:after {
+right: -270px; 
+}
+
+
+/**/
+form{
+    margin-top: 20px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#email,
+#senha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 60%;
+    height: 30px;
+    border: none;
+    border: 1px solid #1f242d;
+    border-radius: 20px;
+    padding: 5px;
+    background: #D0CFBB;
+    color: black;
+    outline: none;
+    animation: link 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+#checkbox{
+    margin-inline: 5px;
+}
+
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.check p,
+.check a{
+    color: #1f242d;
+    font-family: 'Raleway', sans-serif;
+}
+
+.botão{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 45%;
+    background-color: #020202;
+    border: none;
+    border-radius: 20px;
+    color: #D0CFBB;
+    padding: 15px;
+    font-size: 19px;
+    font-weight: 600;
+    animation: slideRight 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    cursor: pointer;
+}
+
+
+#esq{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: #020202;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.conta{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: #020202;
+    font-family: 'Poppins',sans-serif;
+}
+
+.conta a{
+    color: #020202;
+    font-family: 'Raleway', sans-serif;
+    margin-inline: 10px;
+}
+
+
+
+@keyframes slideLeft{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideRight{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes link {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .left{
+        display: none;
+    }
+    .right{
+        width: 360px;
+        margin-left: 20px;
+    }
+
+
+    #email,
+    #senha{
+        width: 80%;
+    }
+
+    .ou:before,
+    .ou:after{
+        margin-inline: 10px;
+        position: absolute; 
+        top: 40%; 
+        width: 100px; 
+        height: 1px; 
+        background-color: black; 
+}   
+
+    .ou:before {
+        left: 70px; 
+    }
+
+    .ou:after { 
+        right: 50px; 
+    }
+    button{
+        width: 60%;
+        margin-top: 30px;
+    }
+    #esq{
+        margin-top: 60px;
+    }
+    .conta{
+        margin-top: 70px;
+    }
+    .check{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,127 @@
+/*Corpo*/
+
+body{
+    background-color:  #0D1117;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";;
+}
+
+/*Imagem que fica em cima*/
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/*titulo*/
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    margin-top: 25px;
+    font-weight: var(--base-text-weight-light, 300);
+}
+
+/*card*/
+
+.formy{
+    display: flex;
+    justify-content: center;
+    
+}
+
+form{
+    position: relative;
+    width: 42vh;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    padding: 15px;
+    padding-right: 30px;
+    background-color: #161B22;
+}
+
+.formy a{
+    position: relative;
+    bottom: 5px;
+    font-size: 12px;
+    text-decoration: none;
+    left: 18vh;
+    color: #58a6ff;
+}
+
+label{
+    font-size: small;
+    position: relative;
+    bottom: 5px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    border: 1px solid #30363d;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: #0d1117;
+    margin: 4px 0px 0px 0px;
+}
+
+button{
+    display: block;
+    width: 105%;
+    text-align: center;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #238636;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* div com "criar nova conta" */
+
+.new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new p{
+    position: relative;
+    width: 44vh;
+    border: 1px solid #30363d;;
+    border-radius: 5px;
+    padding: 16px;
+    text-align: center;
+    font-size: small;
+}
+
+.new a{
+    font-size: medium;
+    text-decoration: none;
+    position: relative;
+    color: #58a6ff;
+}
+
+/*Links abaixo*/
+
+.terms{
+    display: flex;
+    justify-content: center;
+    margin: 77px 0px 0px;
+    position: relative;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.terms a{
+    color: #58a6ff;
+    text-decoration: none;
+    padding: 8px;;
+    font-size: 12px;
+}
+
+

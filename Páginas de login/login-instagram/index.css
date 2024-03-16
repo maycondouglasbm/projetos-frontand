@@ -1,0 +1,141 @@
+/* Parte do corpo*/
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/*Segundo bloco*/
+
+.right{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Bloco direito*/
+
+.right img{
+    position: relative;
+    bottom: 10%;
+    width: 220px;
+    margin: 5px;
+}
+.left img{
+    width: 30vw;
+}
+
+/*Bloco esquerdo*/
+
+.card{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 365px;
+    height: 358px;
+    padding: 80px 40px;
+    border: 1px solid #ccc;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+input{
+    width: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    background: #FAFAFA;
+    border: 1px solid#ccc;
+}
+
+button{
+    width: 165%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4CB4F8;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.divisoria {
+    position: relative; /* permite que a posição seja definida em relação ao elemento pai */
+    text-align: center;
+  }
+  
+  .ou {
+    display: inline-block;
+    position: relative; /* permite que as linhas sejam posicionadas em relação a este elemento */
+    z-index: 1; /* eleva o elemento acima das linhas */
+    background-color: #fafafa; /* ajusta a cor de fundo para combinar com o fundo da página */
+    padding: 0 10px;
+    font-weight: bold;
+    color: #8e8e8e;
+  }
+  
+  .ou:before,
+  .ou:after {
+    content: "";
+    display: flex;
+    justify-content: center;
+    margin-inline: 60px;
+    position: absolute; /* posiciona as linhas em relação ao elemento pai */
+    top: 50%; /* posiciona as linhas no centro verticalmente */
+    width: 110px; /* ajusta o comprimento das linhas */
+    height: 1px; /* ajusta a espessura das linhas */
+    background-color: #ccc; /* ajusta a cor das linhas */
+  }
+  
+  .ou:before {
+    left: 5px; /* posiciona a primeira linha à esquerda do texto */
+  }
+  
+  .ou:after {
+    right: 5px; /* posiciona a segunda linha à direita do texto */
+  }
+
+
+
+/*Terceiro bloco abaixo do segundo*/ 
+
+._ab21{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 450px;
+    height: 80px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/*Fora dos bloco (Definir cor, estilo, posição*/
+
+p{
+    position: relative;
+    top: 20%;
+    font-size: medium;
+    color: black;
+}   
+
+.abc{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4cb4f8;
+    font-weight: 800;
+}

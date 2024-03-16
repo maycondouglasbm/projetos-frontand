@@ -1,0 +1,212 @@
+body{
+    background-color: #242D34;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 8vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    background-color: black;
+    width: 40vw;
+    border-radius: 15px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.logo img{
+    width: 30px;
+}
+
+.blocop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    height: 80vh;
+    border-radius: 0px 15px 15px;
+}
+
+.twitter{
+    position: relative;
+    bottom: 80px;
+}
+
+.twitter p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Apple{
+    position: relative;
+    bottom: 70px;
+    
+}
+
+.Apple img{
+    display: flex;
+    justify-content: center;
+    width: 33px;
+}
+
+.Apple a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.divisoria{
+    position: relative;
+    bottom: 50px;
+}
+
+.ou:before,
+.ou:after {
+    content: "";
+    display: flex;
+    justify-content: center;
+    margin-inline: 5vh;
+    position: absolute; 
+    top: 50%; 
+    width: 110px; 
+    height: 1px;
+    background-color: #ccc; 
+}
+
+.ou:before {
+    left: 5px; 
+}
+
+.ou:after {
+    right: 5px;
+}
+
+input{
+    color: #ccc;
+    background-color: black;
+    border: 1px solid rgb(51, 54, 57);
+    padding: 15px;
+    width: 38vh;
+    font-size: 15px;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 5vh;
+}
+
+.botão{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 50vh;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.esq{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px
+}
+
+.esq a{
+    text-align: center;
+    text-decoration: none;
+    width: 47vh;
+    color: white;
+    border: none;
+    border: 1px solid rgb(51, 54, 57);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.count{
+    position: relative;
+    top: 40px;
+    right: 50px;
+    font-size: 15px;
+}
+
+.count a{
+    color: #1D9Bf0;
+}
+
+@media screen and (max-width: 780px) {
+    .twitter p{
+        font-size: 20px;
+    }
+    .Apple a{
+        width: 40vh;
+    }
+    button{
+        width: 40vh;
+    }
+    .esq{
+        width: 40vh;
+    }
+    .count{
+        width: 20vh;
+    }
+    .divisoria{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 611px) {
+    .Apple a{
+        width: 30vh;
+        height: 20px;
+        font-size: 13px;
+    }
+    input{
+        width: 25vh;
+    }
+    button{
+        width: 30vh;
+    }
+    .esq{
+        width: 35vh;
+    }
+    .count{
+        width: 15vh;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .Apple a{
+        width: 25vh;
+        height: 15px;
+        font-size: 11px;
+    }
+    .esq{
+        width: 30vh;
+        font-size: 12px;
+    }
+    .count{
+        width: 10vh;
+        font-size: 12px;
+    }
+}

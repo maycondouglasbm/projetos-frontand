@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="main">
+        <div class="title">
+            <h2>Formulário</h2>
+        </div>
+        <div class="name">
+            <label id="one">Nome</label>
+            <br>
+            <input type="text" placeholder="Digite seu nome">
+        </div>
+        <div class="email">
+            <label id="two">Email</label>
+            <br>
+            <input type="email" placeholder="Digite seu email">
+        </div>
+        <div class="age">
+            <label>Idade (opcional):</label>
+            <br>
+            <input type="number" name="age" id="number" min="10" max="99" placeholder="Idade">
+        </div>
+        <div class="which">
+            <label>Qual opção melhor descreve sua função atual?</label>
+            <br>
+            <select name="Select current role" id="select" required>
+                <option disabled selected value="Select current role">Selecione a função atual</option>
+                <option value="Student">Estudante</option>
+                <option value="Full Time Job">Trabalho em tempo integral</option>
+                <option value="Full Time Learner">Aprendiz em tempo integral</option>
+                <option value="Prefer not to say">Prefiro não dizer</option>
+                <option value="Other">Outro(s)</option>
+            </select>
+        </div>
+        <div class="would">
+            <label>Você recomendaria a plataforma a um amigo? (Marque uma úica opção)</label>
+            <br>
+            <input type="radio"> Definitivamente 
+            <input type="radio"> Talvez 
+            <input type="radio"> Não tenho certeza
+        </div>
+        <div class="what">
+            <label>Qual é o seu recurso favorito da plataforma</label>
+            <br>
+            <select name="Select an option" id="select option">
+                <option disabled selected value="Select an option">Selecione uma opição</option>
+                <option value="Challenges">Desafios</option>
+                <option value="Projects">Projetos</option>
+                <option value="Community">Comunidade</option>
+                <option value="Open Source">Código aberto</option>
+            </select>
+        </div>
+        <div class="checkbox">
+            <label>O que você gostaria de ver melhorado? (Marque todos os que se aplicam).</label>
+            <br>
+            <div class="marcar">
+                <input type="checkbox" name="Front-end Projects" id="Front"> Projetos Front-end 
+                <br>
+                <input type="checkbox" name="Back-end Projects" id="Back"> Projetos Back-end
+                <br>
+                <input type="checkbox" name="Data Visualization" id="Data"> Visualização de dados
+                <br>
+                <input type="checkbox" name="Challenges" id="Challenges"> Desafios
+                <br>
+                <input type="checkbox" name="Open Source Community" id="Open"> Comumidade de códigos abertos
+                <br>
+                <input type="checkbox" name="Gitter help rooms" id="Gitter"> Salas de ajuda do Gitter
+                <br>
+                <input type="checkbox" name="Videos" id="videos"> Videos
+                <br>
+                <input type="checkbox" name="City Meetups" id="City"> Encontros na cidade
+                <br>
+                <input type="checkbox" name="Wiki" id="wiki"> Wiki
+                <br>
+                <input type="checkbox" name="Forum" id="forum"> Fórum
+                <br>
+                <input type="checkbox" name="Additional Courses" id="additional"> Cursos adicionais
+            </div>    
+        </div>
+        <div class="any">
+            <label>Algum comentário ou sugestão?</label>
+            <br>
+            <textarea name="Enter your comment here..." id="textarea" cols="50" rows="3" placeholder="Digite seu comentário aqui..."></textarea>
+        </div>
+        <div class="button">
+            <button>Enviar</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

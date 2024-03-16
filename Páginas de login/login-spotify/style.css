@@ -1,0 +1,250 @@
+/*Corpo*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*bloco 1 -> cabeçario: Logo spotify*/
+
+.bloco1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 15px;
+    border-bottom: 1px solid rgb(217, 218, 220);
+}
+
+img{
+    width: 150px;
+}
+
+
+/*Bloco inteiro de baixo*/
+
+.sc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Segundo bloco: bloco inteiro com os elementos
+fica dentro do sc */
+
+.bloco2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/*terceiro bloco: botões do facebook, apple, google*/
+
+.bloco3{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bloco3 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px 0px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.bloco3 ul{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 0px 0px -40px;
+    list-style-type: none;
+}
+
+.bloco3 img{
+    width: 25px;
+    margin-inline: 10px;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one button{
+    background-color: #1877f2;
+    color: white;
+    width: 70vh;
+    border: none;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.two button{
+    background-color: #000000e6;
+    color: white;
+    width: 70vh;
+    border: none;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.three button{
+    background-color: white;
+    color: #6a6a6a;
+    width: 70vh;
+    border: 1px solid #6a6a6a;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.four button{
+    background-color: white;
+    color: #6a6a6a;
+    width: 70vh;
+    border: 1px solid #6a6a6a;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/*A divisoria*/
+
+.ou{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ou:before,
+.ou:after {
+    content: "";
+    display: flex;
+    justify-content: center;
+    margin-inline: 78vh;
+    position: absolute; 
+    top: 67%; 
+    width: 35vh; 
+    height: 1px;
+    background-color: #ccc; 
+}
+
+.ou:before {
+    left: 5px; 
+}
+
+.ou:after {
+    right: 5px;
+}
+
+/*Quarto bloco*/
+
+label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+input{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.bloco4 a{
+    color: black;
+    display: block;
+    margin-top: 30px;
+}
+
+/*Quinto bloco*/
+
+.bloco5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lem{
+    display: flex;
+    width: 50%;
+    color: #6a6a6a;
+}
+
+.lem input{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 10vh;
+}
+
+.botão{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.botão button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    height: 50px;
+    background-color: #1ed760;
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/*Bloco final*/
+
+h2{
+    margin: 30px 0px 0px ;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    
+}
+
+.final a{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #6a6a6a;
+    border-radius: 25px;
+    color: #6a6a6a;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px;
+    width: 70vh;
+    height: 20px;
+    text-decoration: none;
+}

@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    text-align: center; 
+}
+
+.section-1{
+    background-image: url(imagens/img3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    height: 100%;   
+    margin: 0;
+    text-align: center;
+    opacity: 0.70;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.title span{
+    background-color: rgb(14, 16, 17);
+    padding: 15px 30px 15px 30px;
+}
+
+
+.section-2{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    background-color: #F4F4F4;
+    color: #000;
+}
+
+.section-2 h2,
+.section-2 p{
+    position: relative;
+    top: 20%;
+    left: 25%;
+    width: 40rem;
+    margin: 0px;
+}
+
+
+
+.section-3{
+    background-image: url(imagens/img2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    height: 60%;   
+    margin: 0;
+    text-align: center;
+    opacity: 0.70;
+}
+
+.title-1{
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin-top: 10rem;
+}
+
+
+
+.section-4{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    background-color: #282E34;
+    color: #fff;
+}
+
+.section-4 h2,
+.section-4 p{
+    position: relative;
+    top: 20%;
+    left: 25%;
+    width: 40rem;
+    margin: 0px;
+}
+
+
+
+.section-5{
+    background-image: url(imagens/img3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    height: 60%;   
+    margin: 0;
+    text-align: center;
+    opacity: 0.70;
+}
+
+.title-2{
+    position: absolute;
+    width: 100%;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin-top: 10rem;
+}
+
+
+.section-6{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    background-color: #282E34;
+    color: #fff;
+}
+
+.section-6 h2,
+.section-6 p{
+    position: relative;
+    top: 20%;
+    left: 25%;
+    width: 40rem;
+    margin: 0px;
+}
+
+/**/
+
+.section-7{
+    background-image: url(imagens/img4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    height: 100%;   
+    margin: 0;
+    text-align: center;
+    opacity: 0.70;
+}
+
+.title-3{
+    position: absolute;
+    width: 100%;
+    margin-top: 15rem;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+
+/**/
+
+@media screen and (max-width: 390px) {
+    .section-2{
+        height: 30vh;
+        width: 100px;
+    }
+    .section-2 h2,
+    .section-2 p{
+        position: relative;
+        top: 20%;
+        left: 26%;
+        width: 20rem;
+        margin: 0px;
+    }
+    .section-4{
+        height: 35vh;
+        width: 50vh;
+    }
+    .section-4 h2,
+    .section-4 p{
+        position: relative;
+        top: 20%;
+        left: 10%;
+        width: 20rem;
+        margin: 0px;
+    }
+    .title-2{
+        position: absolute;
+        width: 50vh;
+        margin-top: 15rem;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 600;
+    }
+    .section-6{
+        height: 35vh;
+        width: 50vh;
+    }
+    .section-6 h2,
+    .section-6 p{
+        position: relative;
+        top: 20%;
+        left: 10%;
+        width: 20rem;
+        margin: 0px;
+    }
+    .title-3{
+        margin-top: 20rem;
+    }
+}
+
+footer{
+    width: 100%;
+    height: 10vw;
+    background-color: #25252F;
+    position: absolute;
+}
+
+.rodape{
+    position: relative;
+    top: 20px;
+}
+
+.rodape h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #F4F4F4;
+}
+
+.rodape h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F4F4F4;
+}
+
+.social-media{
+    position: relative;
+    top: 50px;
+}
+
+.social-media a i{
+    font-size: 30px;
+    margin-inline: 20px;
+    color: #F4F4F4;
+}
+
+.social-media a i:hover{
+    color: aqua;
+}
